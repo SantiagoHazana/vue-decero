@@ -13,37 +13,37 @@ export default new Router({
     mode: "history",
     routes: [
         {
-            path: "/",
+            path: "",
             component: Home,
             name: "home"
         },
         {
-            path: "/expertos-en-reformas",
+            path: "expertos-en-reformas",
             component: ExpertosEnReformas,
             name: "expertos-en-reformas"
         },
         {
-            path: "/domotica",
+            path: "domotica",
             component: Domotica,
             name: "domotica"
         },
         {
-            path: "/decoracion-de-interiores",
+            path: "decoracion-de-interiores",
             component: DecoracionDeInteriores,
             name: "decoracion-de-interiores"
         },
         {
-            path: "/electricidad-y-fontaneria",
+            path: "electricidad-y-fontaneria",
             component: ElectricidadYFontaneria,
             name: "electricidad-y-fontaneria"
         },
         {
-            path: "/energias-renovables",
+            path: "energias-renovables",
             component: EnergiasRenovables,
             name: "energias-renovables"
         },
         {
-            path: "/contacto",
+            path: "contacto",
             component: Contacto,
             name: "contacto"
         },
