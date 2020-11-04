@@ -14,7 +14,7 @@
         class="absolute z-10 text-white w-full h-full flex content-center justify-center flex-wrap px-4"
       >
         <div class="w-full lg:w-1/3 text-center lg:flex lg:flex-wrap lg:justify-center lg:mt-40">
-          <img src="/vue-decero/img/logo-home.png" class="opacity-50 lg:mt-40" />
+          <img src="/img/logo-home.png" class="opacity-50 lg:mt-40" />
           <!--  <h1 class="text-7xl font-light">DeCero</h1>
           <h2 class="text-2xl text-gray-300 font-medium">- PROYECTOS Y REFORMAS -</h2>-->
         </div>

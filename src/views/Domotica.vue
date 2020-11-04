@@ -8,7 +8,7 @@
         <p
           class="text-base font-thin text-gray-600 text-center px-4 mb-3 lg:text-left"
         >La tecnología avanza y nosotros avanzamos con ella</p>
-        <img src="/vue-decero/img/servicios/domotica.jpg" class="w-full object-cover" style="height: 400px;" />
+        <img src="/img/servicios/domotica.jpg" class="w-full object-cover" style="height: 400px;" />
         <div class="py-6 px-6 text-gray-900 text-xl font-light leading-relaxed">
           <p class="mb-5">
             El sistema domótico incluye dispositivos a los elementos
@@ -54,7 +54,7 @@
               consumo o regulan la iluminación artificial en
               función de la luz natural.
             </p>
-            <img src="/vue-decero/img/domotica/dom-efi.jpg" class="w-full object-cover h-full mt-6 rounded" />
+            <img src="/img/domotica/dom-efi.jpg" class="w-full object-cover h-full mt-6 rounded" />
           </div>
 
           <div class="mb-6">
@@ -72,7 +72,7 @@
               cerrar las ventanas si estamos fuera y comienza a
               llover.
             </p>
-            <img src="/vue-decero/img/domotica/dom-conf.jpg" class="w-full object-cover h-full mt-6 rounded" />
+            <img src="/img/domotica/dom-conf.jpg" class="w-full object-cover h-full mt-6 rounded" />
           </div>
 
           <div class="mb-6">
@@ -93,7 +93,7 @@
               intrusiones o imprevistos importantes en su
               interior.
             </p>
-            <img src="/vue-decero/img/domotica/dom-seg.jpeg" class="w-full object-cover h-full mt-6 rounded" />
+            <img src="/img/domotica/dom-seg.jpeg" class="w-full object-cover h-full mt-6 rounded" />
           </div>
 
           <div class="mb-6">
@@ -107,7 +107,7 @@
               cambiar los hábitos medioambientales menos
               sostenibles.
             </p>
-            <img src="/vue-decero/img/domotica/dom-amb.jpg" class="w-full object-cover h-full mt-6 rounded" />
+            <img src="/img/domotica/dom-amb.jpg" class="w-full object-cover h-full mt-6 rounded" />
           </div>
 
           <p

@@ -7,7 +7,7 @@
                 class="container mx-auto flex justify-between items-center flex-row-reverse md:flex-row"
             >
                 <router-link class="cursor-pointer" :to="{ name: 'home' }">
-                    <img src="/vue-decero/img/logo-png-2.jpg" class="max-w-sm" />
+                    <img src="/img/logo-png-2.jpg" class="max-w-sm" />
                 </router-link>
                 <div
                     class="text-3xl pl-3 pr-10 md:invisible"

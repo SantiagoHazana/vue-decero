@@ -6,7 +6,7 @@
           class="text-3xl text-red-600 text-center font-medium mt-5 mb-3 lg:text-4xl lg:text-left lg:px-6"
         >Decoración de interiores</h1>
         <img
-          src="/vue-decero/img/servicios/decoracion-de-interiores.jpg"
+          src="/img/servicios/decoracion-de-interiores.jpg"
           class="w-full object-cover"
           style="height: 400px;"
         />
@@ -75,7 +75,7 @@
               sofisticación.
             </p>
             <img
-              src="/vue-decero/img/decoracion-de-interiores/clasica.jpg"
+              src="/img/decoracion-de-interiores/clasica.jpg"
               class="w-full object-cover h-full mt-3 rounded"
             />
           </div>
@@ -91,7 +91,7 @@
               simplicidad, serenidad y sobriedad.
             </p>
             <img
-              src="/vue-decero/img/decoracion-de-interiores/minimalista.jpg"
+              src="/img/decoracion-de-interiores/minimalista.jpg"
               class="w-full object-cover h-full mt-3 rounded"
             />
           </div>
@@ -107,7 +107,7 @@
               de las modas.
             </p>
             <img
-              src="/vue-decero/img/decoracion-de-interiores/rustico.jpg"
+              src="/img/decoracion-de-interiores/rustico.jpg"
               class="w-full object-cover h-full mt-3 rounded"
             />
           </div>
@@ -123,7 +123,7 @@
               al estilo asiático es la serenidad.
             </p>
             <img
-              src="/vue-decero/img/decoracion-de-interiores/oriental2.jpg"
+              src="/img/decoracion-de-interiores/oriental2.jpg"
               class="w-full object-cover h-full mt-3 rounded"
             />
           </div>
@@ -138,7 +138,7 @@
               fina.
             </p>
             <img
-              src="/vue-decero/img/decoracion-de-interiores/ingles.jpg"
+              src="/img/decoracion-de-interiores/ingles.jpg"
               class="w-full object-cover h-full mt-3 rounded"
             />
           </div>

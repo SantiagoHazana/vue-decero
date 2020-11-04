@@ -6,7 +6,7 @@
           class="text-3xl text-red-600 text-center font-medium mt-5 mb-3 lg:text-4xl lg:text-left lg:px-6"
         >Expertos en reformas</h1>
         <img
-          src="/vue-decero/img/servicios/expertos-en-reformas.jpg"
+          src="/img/servicios/expertos-en-reformas.jpg"
           class="w-full object-cover rounded"
           style="height:400px;"
         />
@@ -31,7 +31,7 @@
             <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
             Plasmamos el proyecto en papel para su aprobación.
             <img
-              src="/vue-decero/img/expertos-en-reformas/papel.jpeg"
+              src="/img/expertos-en-reformas/papel.jpeg"
               class="w-full object-cover h-64 mt-3 rounded"
             />
           </p>
@@ -41,7 +41,7 @@
             Planificamos y coordinamos todos los sectores durante
             las distintas fases del proyecto.
             <img
-              src="/vue-decero/img/expertos-en-reformas/plan.jpg"
+              src="/img/expertos-en-reformas/plan.jpg"
               class="w-full object-cover h-64 mt-3 rounded"
             />
           </p>
@@ -50,7 +50,7 @@
             Detectamos sus necesidades y preferencias en un estudio
             previo.
             <img
-              src="/vue-decero/img/expertos-en-reformas/estudio-previo.png"
+              src="/img/expertos-en-reformas/estudio-previo.png"
               class="w-full object-cover h-64 mt-3 rounded"
             />
           </p>
@@ -59,7 +59,7 @@
             Nos encargados de todas las gestiones relacionadas:
             solicitud de permisos y licencias.
             <img
-              src="/vue-decero/img/expertos-en-reformas/licencias.jpg"
+              src="/img/expertos-en-reformas/licencias.jpg"
               class="w-full object-cover h-64 mt-3 rounded"
             />
           </p>
