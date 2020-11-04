@@ -6,7 +6,7 @@
           class="text-3xl text-red-600 text-center font-medium mt-5 mb-3 lg:text-4xl lg:text-left lg:px-6"
         >Energías renovables</h1>
         <img
-          src="/img/servicios/energias-renovables.jpg"
+          src="/vue-decero/img/servicios/energias-renovables.jpg"
           class="w-full object-cover"
           style="height: 400px;"
         />
@@ -41,7 +41,7 @@
                 necesario.
               </p>
               <img
-                src="/img/adecuacion-de-potencias.jpg"
+                src="/vue-decero/img/adecuacion-de-potencias.jpg"
                 class="w-full lg:w-1/3 object-cover h-40 rounded mt-4 px-4 lg:px-0"
               />
             </div>
@@ -61,7 +61,7 @@
                 vuestro hogar y cuidar el medio ambiente.
               </p>
               <img
-                src="/img/iluminacion-led.jpg"
+                src="/vue-decero/img/iluminacion-led.jpg"
                 class="w-full lg:w-1/3 object-cover h-40 rounded mt-4 px-4 lg:px-0"
               />
             </div>
@@ -84,7 +84,7 @@
                 grandes instalaciones.
               </p>
               <img
-                src="/img/calefaccion-y-calentador-solar-acs.jpg"
+                src="/vue-decero/img/calefaccion-y-calentador-solar-acs.jpg"
                 class="w-full lg:w-1/3 object-cover h-40 rounded mt-4 px-4 lg:px-0"
               />
             </div>
@@ -108,7 +108,7 @@
                 mejoras que recomendamos.
               </p>
               <img
-                src="/img/medio-ambiente.jpg"
+                src="/vue-decero/img/medio-ambiente.jpg"
                 class="w-full lg:w-1/3 object-cover h-64 rounded mt-4 px-4 lg:px-0"
               />
             </div>

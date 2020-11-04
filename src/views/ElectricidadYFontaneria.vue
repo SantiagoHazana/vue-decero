@@ -10,7 +10,7 @@
           fontanería.
         </p>
         <img
-          src="/img/electricidad-y-fontaneria-3.jpg"
+          src="/vue-decero/img/electricidad-y-fontaneria-3.jpg"
           class="w-full object-cover"
           style="height: 400px;"
         />
@@ -51,11 +51,11 @@
 
           <div class="flex my-5">
             <img
-              src="/img/electricidad-y-fontaneria-1.jpg"
+              src="/vue-decero/img/electricidad-y-fontaneria-1.jpg"
               class="w-1/2 object-cover h-40 pr-8 rounded"
             />
             <img
-              src="/img/electricidad-y-fontaneria-2.jpg"
+              src="/vue-decero/img/electricidad-y-fontaneria-2.jpg"
               class="w-1/2 object-cover h-40 pr-8 rounded"
             />
           </div>

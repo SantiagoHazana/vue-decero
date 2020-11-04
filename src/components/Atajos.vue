@@ -52,7 +52,7 @@ export default {
       atajos: [
         {
           id: 1,
-          image: "/img/servicios/expertos-en-reformas.jpg",
+          image: "/vue-decero/img/servicios/expertos-en-reformas.jpg",
           title: "Expertos en reformas",
           text:
             "Somos una Empresa Especializada en Reformas con más de 10 años de experiencia en el sector de la decoración y las reformas de Viviendas, Comercios y Oficinas.",
@@ -61,7 +61,7 @@ export default {
 
         {
           id: 2,
-          image: "/img/servicios/decoracion-de-interiores.jpg",
+          image: "/vue-decero/img/servicios/decoracion-de-interiores.jpg",
           title: "Decoración de interiores",
           text:
             "Ofrecemos atención personalizada, conservando y cuidando todos los detalles de calidad y diseño. Logrando optimizar los espacios-ambientes necesarios, administrando recursos, sin descuidar el buen gusto.",
@@ -69,7 +69,7 @@ export default {
         },
         {
           id: 3,
-          image: "/img/servicios/electricidad-y-fontaneria.jpg",
+          image: "/vue-decero/img/servicios/electricidad-y-fontaneria.jpg",
           title: "Electricidad y fontanería",
           text:
             "Proporcionamos servicios de instalaciones eléctricas, gas y sanitarias. Ofrecemos soluciones globales para sus reparaciones, reformas o nuevas instalaciones brindándole la tranquilidad y confianza que representa el respaldo de nuestros profesionales altamente cualificados.",
@@ -77,7 +77,7 @@ export default {
         },
         {
           id: 4,
-          image: "/img/servicios/energias-renovables.jpg",
+          image: "/vue-decero/img/servicios/energias-renovables.jpg",
           title: "Energías renovables",
           text:
             "Convertimos vuestra casa en un hogar sostenible. Instalamos sistemas de placas solares desarrolladas con la última tecnología tanto en viviendas unifamiliares, multifamiliares o grandes instalaciones. Apostamos por respetar y cuidar el medio ambiente.",
@@ -85,7 +85,7 @@ export default {
         },
         {
           id: 5,
-          image: "/img/servicios/domotica.jpg",
+          image: "/vue-decero/img/servicios/domotica.jpg",
           title: "Domótica",
           text:
             "El sistema domótico añade dispositivos a los elementos eléctricos permitiendo un control automático de luces, enchufes, motores de persianas o cortinas y sistemas de calefacción y climatización mediante acceso remoto.",

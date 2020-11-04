@@ -7,7 +7,7 @@ npm <template>
         >
             <div>
                 <router-link class="cursor-pointer" :to="{ name: 'home' }">
-                    <img src="/img/logo-png-2.jpg" class="max-w-sm" />
+                    <img src="/vue-decero/img/logo-png-2.jpg" class="max-w-sm" />
                 </router-link>
             </div>
             <div
