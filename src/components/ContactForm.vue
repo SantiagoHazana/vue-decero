@@ -1,41 +1,41 @@
 <template>
   <div>
-    <form action="#" class="mt-5 text-gray-800">
+    <form @submit.prevent="sendEmail" class="mt-5 text-gray-800 contact-form">
       <input
         class="outline-none appearance-none bg-transparent w-full text-grey-darker mr-3 py-1 px-2 border-b-2 border-grey-light focus:border-red-300 mb-5"
-        v-model="fullname"
+        name="user_name"
         type="text"
         placeholder="Nombre y Apellido"
         autocomplete="off"
       />
       <input
         class="outline-none appearance-none bg-transparent w-full text-grey-darker mr-3 py-1 px-2 border-b-2 border-grey-light focus:border-red-300 mb-5"
-        v-model="phone"
+        name="user_phone"
         type="text"
         placeholder="Teléfono o celular"
         autocomplete="off"
       />
       <input
         class="outline-none appearance-none bg-transparent w-full text-grey-darker mr-3 py-1 px-2 border-b-2 border-grey-light focus:border-red-300 mb-5"
-        v-model="email"
+        name="user_email"
         type="text"
         placeholder="Email"
         autocomplete="off"
       />
       <textarea
         class="outline-none appearance-none bg-transparent w-full text-grey-darker mr-3 py-1 px-2 border-b-2 border-grey-light focus:border-red-300"
-        v-model="comments"
+        name="message"
         type="text"
         placeholder="Escriba su consulta"
         autocomplete="off"
       ></textarea>
       <div class="mt-10">
-        <a
-          v-if="loading == false"
-          @click="send"
+        <input
+            type="submit"
+            value="Enviar"
+          v-if="!loading"
           class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded cursor-pointer"
-          >Enviar</a
-        >
+          />
         <a
           v-else
           disabled
@@ -123,16 +123,12 @@
 
 <script>
 import Modal from "vue-tailwind-modal";
-import axios from "axios";
+import emailjs from 'emailjs-com';
 
 export default {
   props: ["closeButton"],
   data() {
     return {
-      fullname: "",
-      phone: "",
-      email: "",
-      comments: "",
       currentCloseButton: this.closeButton,
       thanks: false,
       error: false,
@@ -142,31 +138,20 @@ export default {
   },
 
   methods: {
-    send() {
+    sendEmail: function(e) {
       this.loading = true;
-      axios
-        .post("/api/send-contact", {
-          fullname: this.fullname,
-          phone: this.phone,
-          email: this.email,
-          comments: this.comments,
-        })
-        .then((response) => {
-          if (response.status == 200) {
+      emailjs.sendForm('service_iy1iuzv', 'template_bg3k2il', e.target, 'user_xcAr3aPGvN1E85vjpaJtl')
+          .then((response) => {
+            this.loading = false;
             this.thanks = true;
             this.error = false;
-          } else {
-            this.error = true;
-          }
-          this.show = true;
+            this.show = true;
 
-          this.loading = false;
-        })
-        .catch((e) => {
-          this.show = true;
-          this.error = true;
-          this.loading = false;
-        });
+          }, (error) => {
+            this.loading = false;
+            this.show = true;
+            this.error = true;
+          });
     },
     close() {
       this.$emit("close-button");
