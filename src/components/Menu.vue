@@ -81,7 +81,7 @@ npm <template>
                           color +
                           '-500 transition-all duration-300'
                   "
-                >Mantenimiento Comunidades</router-link
+                >Mantenimiento de Comunidades</router-link
                 >
                 <router-link
                     :to="{ name: 'contacto' }"
@@ -165,7 +165,7 @@ npm <template>
                         color +
                         '-500 transition-all duration-300'
                 "
-                >Mantenimiento Comunidades</router-link
+                >Mantenimiento de Comunidades</router-link
             >
             <router-link
                 :to="{ name: 'contacto' }"

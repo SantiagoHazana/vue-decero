@@ -8,7 +8,7 @@ import DecoracionDeInteriores from "./views/DecoracionDeInteriores";
 import ElectricidadYFontaneria from "./views/ElectricidadYFontaneria";
 import EnergiasRenovables from "./views/EnergiasRenovables";
 import Contacto from "./views/Contacto";
-import MantenimientoComunidades from "@/views/MantenimientoComunidades";
+import MantenimientoComunidades from "./views/MantenimientoComunidades";
 Vue.use(Router);
 export default new Router({
     mode: "history",

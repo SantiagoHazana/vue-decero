@@ -9,10 +9,12 @@
         @click="scrollToSection('contacto')"
         class="cursor-pointer w-full lg:w-1/3 shadow-md rounded mx-2 hover:bg-gray-200 transition duration-500 ease-in-out transform hover:-translate-y-3"
       >-->
+
       <a
         class="w-full lg:w-1/3 shadow-md rounded mx-2 transition duration-500 ease-in-out transform"
       >
-        <div class="items-center flex flex-wrap content-center justify-center">
+        <router-link to="mantenimiento-comunidades">
+          <div class="items-center flex flex-wrap content-center justify-center">
           <img
             src="https://www.thespruce.com/thmb/19FRnLcSIDxgLx7epJiJZRZUrvg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/CMNaturalDesign_LampResidence_001_v2-1024x822-5c8d4e9146e0fb0001555852.jpg"
             class="w-full object-cover object-center h-64"
@@ -28,6 +30,7 @@
             Existen múltiples posibilidades en función del tamaño, distribución y estilo. Puede tirar o levantar tabiques si desea ampliar alguna zona, o tener cocina isla, o americana
           </p>
         </div>
+        </router-link>
       </a>
       <a
         class="w-full lg:w-1/3 shadow-md rounded mx-2 transition duration-500 ease-in-out transform"
