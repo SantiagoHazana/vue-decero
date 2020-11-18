@@ -73,6 +73,17 @@ npm <template>
                     >Domotica</router-link
                 >
                 <router-link
+                    :to="{ name: 'mantenimiento-comunidades' }"
+                    :class="
+                      'block md:px-5 py-2 hover:text-' +
+                          color +
+                          '-500 cursor-pointer border-b border-black hover:border-' +
+                          color +
+                          '-500 transition-all duration-300'
+                  "
+                >Mantenimiento Comunidades</router-link
+                >
+                <router-link
                     :to="{ name: 'contacto' }"
                     :class="
                         'md:px-5 py-2 hover:text-' +
@@ -144,6 +155,17 @@ npm <template>
                         '-500 transition-all duration-300'
                 "
                 >Domotica</router-link
+            >
+            <router-link
+                :to="{ name: 'mantenimiento-comunidades' }"
+                :class="
+                    'block md:px-5 py-2 hover:text-' +
+                        color +
+                        '-500 cursor-pointer border-b border-black hover:border-' +
+                        color +
+                        '-500 transition-all duration-300'
+                "
+                >Mantenimiento Comunidades</router-link
             >
             <router-link
                 :to="{ name: 'contacto' }"

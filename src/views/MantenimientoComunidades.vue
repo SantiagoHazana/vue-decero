@@ -158,11 +158,17 @@
 </template>
 
 <script>
+import PresupuestoButton from "../components/PresupuestoButton";
+import ChatButton from "../components/ChatButton";
+import ContactForm from "../components/ContactForm";
+
 export default {
-  name: "MantenimientoComunidades"
-}
+  components: { PresupuestoButton, ContactForm, ChatButton },
+  metaInfo: {
+    title: 'Mantenimiento Comunidades',
+    meta: [
+      { name: 'description', content: 'Decero' }
+    ]
+  }
+};
 </script>
-
-<style scoped>
-
-</style>

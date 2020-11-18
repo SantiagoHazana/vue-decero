@@ -8,6 +8,7 @@ import DecoracionDeInteriores from "./views/DecoracionDeInteriores";
 import ElectricidadYFontaneria from "./views/ElectricidadYFontaneria";
 import EnergiasRenovables from "./views/EnergiasRenovables";
 import Contacto from "./views/Contacto";
+import MantenimientoComunidades from "@/views/MantenimientoComunidades";
 Vue.use(Router);
 export default new Router({
     mode: "history",
@@ -41,6 +42,11 @@ export default new Router({
             path: "/energias-renovables",
             component: EnergiasRenovables,
             name: "energias-renovables"
+        },
+        {
+            path: "mantenimiento-comunidades",
+            component: MantenimientoComunidades,
+            name: "mantenimiento-comunidades"
         },
         {
             path: "/contacto",

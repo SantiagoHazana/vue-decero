@@ -46,6 +46,7 @@
     </section>
 
     <atajos-component class="lg:my-20"></atajos-component>
+    <atajos2-component class="lg:my-20"></atajos2-component>
     <proyectos-component class="lg:my-40 mt-10"></proyectos-component>
     <contact-home></contact-home>
     <data-contact></data-contact>
@@ -57,6 +58,7 @@ import WhatssapButton from "../components/WhatssapButton";
 import PresupuestoButton from "../components/PresupuestoButton";
 import ChatButton from "../components/ChatButton";
 import AtajosComponent from "../components/Atajos";
+import Atajos2Component from "../components/Atajos2";
 import ProyectosComponent from "../components/ProyectosComponent";
 import ContactHome from "../components/ContactHome";
 import DataContact from "../components/DataContact";
@@ -70,6 +72,7 @@ export default {
     PresupuestoButton,
     ChatButton,
     AtajosComponent,
+    Atajos2Component,
     ProyectosComponent,
     ContactHome,
     DataContact,
