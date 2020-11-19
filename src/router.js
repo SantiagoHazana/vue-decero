@@ -48,27 +48,27 @@ export default new Router({
             name: "energias-renovables"
         },
         {
-            path: "mantenimiento-comunidades",
+            path: "/mantenimiento-comunidades",
             component: MantenimientoComunidades,
             name: "mantenimiento-comunidades"
         },
         {
-            path: "administracion-comunidades",
+            path: "/administracion-comunidades",
             component: AdministracionComunidades,
             name: "administracion-comunidades"
         },
         {
-            path: "cocinas",
+            path: "/cocinas",
             component: Cocinas,
             name: "cocinas"
         },
         {
-            path: "banos",
+            path: "/banos",
             component: Banos,
             name: "banos"
         },
         {
-            path: "localesoficinas",
+            path: "/localesoficinas",
             component: LocalesOficinas,
             name: "localesoficinas"
         },

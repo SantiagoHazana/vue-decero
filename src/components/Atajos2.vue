@@ -40,7 +40,7 @@ export default {
           link: "mantenimiento-comunidades"
         },
         {
-          id: 1,
+          id: 2,
           image: "/img/servicios/expertos-en-reformas.jpg",
           title: "Administracion de Comunidades",
           text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id sagittis neque, interdum maximus turpis. Cras hendrerit ullamcorper diam in ullamcorper. Aenean convallis dignissim augue, vitae condimentum urna vestibulum eget. Maecenas hendrerit lectus tortor, sed pulvinar velit feugiat at.",
