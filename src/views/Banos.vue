@@ -1,5 +1,5 @@
 <template>
-
+<p>Baños</p>
 </template>
 
 <script>

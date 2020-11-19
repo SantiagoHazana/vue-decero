@@ -9,6 +9,10 @@ import ElectricidadYFontaneria from "./views/ElectricidadYFontaneria";
 import EnergiasRenovables from "./views/EnergiasRenovables";
 import Contacto from "./views/Contacto";
 import MantenimientoComunidades from "./views/MantenimientoComunidades";
+import AdministracionComunidades from "./views/AdministracionComunidades";
+import Banos from "./views/Banos";
+import Cocinas from "./views/Cocinas";
+import LocalesOficinas from "./views/LocalesOficinas";
 Vue.use(Router);
 export default new Router({
     mode: "history",
@@ -47,6 +51,26 @@ export default new Router({
             path: "mantenimiento-comunidades",
             component: MantenimientoComunidades,
             name: "mantenimiento-comunidades"
+        },
+        {
+            path: "administracion-comunidades",
+            component: AdministracionComunidades,
+            name: "administracion-comunidades"
+        },
+        {
+            path: "cocinas",
+            component: Cocinas,
+            name: "cocinas"
+        },
+        {
+            path: "banos",
+            component: Banos,
+            name: "banos"
+        },
+        {
+            path: "localesoficinas",
+            component: LocalesOficinas,
+            name: "localesoficinas"
         },
         {
             path: "/contacto",

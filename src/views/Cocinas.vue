@@ -1,5 +1,5 @@
 <template>
-
+<p>Cocinas</p>
 </template>
 
 <script>

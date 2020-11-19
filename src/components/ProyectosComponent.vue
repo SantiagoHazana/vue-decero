@@ -13,7 +13,7 @@
       <a
         class="w-full lg:w-1/3 shadow-md rounded mx-2 transition duration-500 ease-in-out transform"
       >
-        <router-link to="mantenimiento-comunidades">
+        <router-link to="cocinas">
           <div class="items-center flex flex-wrap content-center justify-center">
           <img
             src="https://www.thespruce.com/thmb/19FRnLcSIDxgLx7epJiJZRZUrvg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/CMNaturalDesign_LampResidence_001_v2-1024x822-5c8d4e9146e0fb0001555852.jpg"
@@ -35,6 +35,7 @@
       <a
         class="w-full lg:w-1/3 shadow-md rounded mx-2 transition duration-500 ease-in-out transform"
       >
+        <router-link to="banos">
         <div class="items-center flex flex-wrap content-center justify-center">
           <img
             src="https://i.pinimg.com/564x/6d/f4/35/6df435ff34a0c39300f5f8ef7b6c497c.jpg"
@@ -49,10 +50,12 @@
             Le proponemos soluciones para todos los gustos y estilos de viviendas. Podemos reformar el baño de una vivienda, un local comercial, un restaurante, un bar, una oficina.
           </p>
         </div>
+        </router-link>
       </a>
       <a
         class="w-full lg:w-1/3 shadow-md rounded mx-2 transition duration-500 ease-in-out transform"
       >
+        <router-link to="localesoficinas">
         <div class="items-center flex flex-wrap content-center justify-center">
           <img
             src="https://ak7.picdn.net/shutterstock/videos/20579557/thumb/1.jpg"
@@ -67,6 +70,7 @@
             Disponemos de equipos especializados en los diferentes gremios que nos ayudarán de la forma mas profesional.
           </p>
         </div>
+        </router-link>
       </a>
     </div>
   </div>
