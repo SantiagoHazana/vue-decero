@@ -18,6 +18,7 @@
           <!--  <h1 class="text-7xl font-light">DeCero</h1>
           <h2 class="text-2xl text-gray-300 font-medium">- PROYECTOS Y REFORMAS -</h2>-->
         </div>
+
         <div class="w-full text-center flex flex-wrap justify-center">
           <!-- <vue-typed-js
             :strings="['Tu lo sueñas, nosotros lo hacemos posible.']"
