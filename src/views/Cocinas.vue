@@ -11,21 +11,16 @@
                 allowfullscreen></iframe>
         <div class="py-6 px-6 text-gray-900 text-xl font-light leading-relaxed">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet commodo ex, vitae maximus lectus.
-            Pellentesque eu ex elit.
-            Fusce non elit ut libero varius pellentesque. Nunc vestibulum consectetur ultrices. Aenean eleifend sit amet
-            sapien ac vehicula.
-            Fusce scelerisque, nulla quis maximus elementum, magna nunc tempor ipsum, elementum facilisis augue nisi id
-            metus. Suspendisse quis
-            ipsum eget sapien pellentesque congue. Sed quis bibendum tortor.
+            En DeCero realizamos la reforma integral de su cocina, lo asesoramos en la elección de la distribución y la
+            elección de materiales y texturas. A través de imágenes fotorrealistas y recorridos virtuales, le
+            mostraremos cómo quedará terminada su reforma.
           </p>
-          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
-            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p>
+            Nos ocupamos de la instalación de fontanería, electricidad, electrodomésticos, alicatado, solado, así como
+            del montaje de muebles y encimeras.
           </p>
-          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
-            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p>
+            Trabajamos con materiales de calidad ajustándonos a las posibilidades de cada cliente.
           </p>
         </div>
       </div>

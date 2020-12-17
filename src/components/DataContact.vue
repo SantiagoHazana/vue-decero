@@ -22,9 +22,9 @@
       <div class="w-full lg:w-1/4 pb-8 lg:pb-0">
         <i class="fas fa-mobile-alt text-6xl text-red-500"></i>
         <p class="mt-2 text-gray-700">
-          <a href="+34722263334">+34 722 263 334</a>
+          <a href="tel:+34722263334">+34 722 263 334</a>
           <br />
-          <a href="951899587">951 899 587</a>
+          <a href="tel:951899587">951 899 587</a>
         </p>
       </div>
       <div class="w-full lg:w-1/4 pb-8 lg:pb-0">
