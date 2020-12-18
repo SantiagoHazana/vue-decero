@@ -15,11 +15,34 @@
             elección de materiales y texturas. A través de imágenes fotorrealistas y recorridos virtuales, le
             mostraremos cómo quedará terminada su reforma.
           </p>
-          <p>
-            Nos ocupamos de la instalación de fontanería, electricidad, electrodomésticos, alicatado, solado, así como
-            del montaje de muebles y encimeras.
+          <p class="font-medium">
+            Nos ocupamos de la instalación de:
           </p>
-          <p>
+          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
+            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
+            Fontanería.
+          </p>
+          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
+            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
+            Electricidad.
+          </p>
+          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
+            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
+            Electrodomésticos.
+          </p>
+          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
+            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
+            Alicatado.
+          </p>
+          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
+            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
+            Soldad.
+          </p>
+          <p class="bg-gray-100 px-6 py-4 rounded mb-2">
+            <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
+            Montaje de muebles y encimeras.
+          </p>
+          <p class="font-medium">
             Trabajamos con materiales de calidad ajustándonos a las posibilidades de cada cliente.
           </p>
         </div>
