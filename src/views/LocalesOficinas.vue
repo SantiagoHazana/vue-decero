@@ -10,7 +10,7 @@
             La supervisión constante de nuestro equipo permite mantener una alta eficiencia con un acabado particular y
             de
             calidad que nuestros clientes agradecen, trabajando estrechamente y garantizando la rapidez en la ejecución
-            en
+            de
             los proyectos.
           </p>
           <p class="mb-5">

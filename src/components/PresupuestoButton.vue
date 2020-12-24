@@ -6,7 +6,7 @@
       >Conocé nuestras oficinas</button> -->
       <button
         class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded text-xl w-full lg:w-2/5"
-      >Conocé nuestras oficinas</button>
+      >Conoce nuestras oficinas</button>
     </router-link>
 
     <transition name="fade">

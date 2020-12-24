@@ -73,7 +73,7 @@
                                 color +
                                 '-500 transition-all duration-300'
                         "
-                        >Domotica</router-link
+                        >Domótica</router-link
                     >
                     <router-link
                         :to="{ name: 'contacto' }"
@@ -146,7 +146,7 @@
                             color +
                             '-500 transition-all duration-300'
                     "
-                    >Domotica</router-link
+                    >Domótica</router-link
                 >
                 <router-link
                     :to="{ name: 'contacto' }"

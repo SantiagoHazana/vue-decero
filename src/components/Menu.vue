@@ -91,7 +91,7 @@ npm
                             color +
                             '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
                     "
-                        >Domotica
+                        >Domótica
                         </router-link
                         >
 
@@ -117,7 +117,7 @@ npm
                           color +
                           '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
                   "
-                        >Administracion de Comunidades
+                        >Administración de Comunidades
                         </router-link
                         >
                     </div>
@@ -198,7 +198,7 @@ npm
                         color +
                         '-500 transition-all duration-300'
                 "
-            >Domotica
+            >Domótica
             </router-link
             >
             <router-link
@@ -222,7 +222,7 @@ npm
                         color +
                         '-500 transition-all duration-300'
                 "
-            >Administracion de Comunidades
+            >Administración de Comunidades
             </router-link
             >
             <router-link

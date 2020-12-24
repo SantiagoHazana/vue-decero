@@ -36,7 +36,7 @@
           </p>
           <p class="bg-gray-100 px-6 py-4 rounded mb-2">
             <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>
-            Soldad.
+            Solado.
           </p>
           <p class="bg-gray-100 px-6 py-4 rounded mb-2">
             <i class="fas fa-check-square text-green-600 fa-lg pr-1"></i>

@@ -106,7 +106,7 @@ import ContactForm from "../components/ContactForm";
 export default {
     components: {PresupuestoButton, ContactForm, ChatButton},
     metaInfo: {
-        title: 'Administracion de Comunidades',
+        title: 'Administración de Comunidades',
         meta: [
             {name: 'description', content: 'Decero'}
         ]

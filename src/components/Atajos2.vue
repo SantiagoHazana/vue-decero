@@ -5,7 +5,7 @@
         <router-link :to="{ name: atajo.link }">
           <img :src="atajo.image" class="w-full h-48 object-cover object-center"/>
           <div class="lg:px-6 lg:py-4 py-4 px-4 shadow-lg my-height">
-            <h1 class="font-bold text-xl mb-2">{{ atajo.title }}</h1>
+            <h2 class="font-bold text-xl mb-2">{{ atajo.title }}</h2>
             <p class="text-gray-700 lg:text-sm text-base">{{ atajo.text }}</p>
           </div>
             <!-- <div class="flex justify-center items-end text-grey-dark">
