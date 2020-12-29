@@ -5,6 +5,10 @@
         <h1 class="text-3xl text-red-600 text-center font-medium mt-5 mb-3 lg:text-4xl lg:text-left lg:px-6">
           Locales y Oficinas
         </h1>
+        <iframe class="m-auto p-5 border-2 mb-5" width="800" height="488"
+                src="https://www.youtube.com/embed/RsvIZ4NJsvY" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         <div class="py-6 px-6 text-gray-900 text-xl font-light leading-relaxed">
           <p class="mb-5">
             La supervisión constante de nuestro equipo permite mantener una alta eficiencia con un acabado particular y

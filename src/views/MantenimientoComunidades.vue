@@ -6,7 +6,7 @@
             class="text-3xl text-red-600 text-center font-medium mt-5 mb-3 lg:text-4xl lg:text-left lg:px-6"
         >Mantenimiento de Comunidades</h1>
         <img
-            src="/img/servicios/decoracion-de-interiores.jpg"
+            src="/img/comunidades/mantenimiento-comunidades.jpg"
             class="w-full object-cover"
             style="height: 400px;"
         />

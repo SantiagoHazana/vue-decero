@@ -3,14 +3,14 @@
         <cookie-law>
             <div slot-scope="props" class="container mx-auto">
                 <p class="text-xl">
-                    Este sitio utiliza cookies
+                    Este sítio utiliza cookies para mejorar tu experiencia!
                 </p>
                 <button
                     class="skew bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded text-xl m-2"
                     @click="props.accept"><span>Acepto!</span></button>
                 <button
                     class="skew bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded text-xl m-2"
-                    @click="props.close"><span>Ignorarme</span></button>
+                    @click="props.close"><span>Solo necesarias</span></button>
             </div>
 
         </cookie-law>
