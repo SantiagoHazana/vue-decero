@@ -1,4 +1,5 @@
-npm <template>
+npm
+<template>
     <nav
         class="md:p-2 py-2 px-3 z-10 bg-black text-white lg:fixed w-full z-50 border-b-2"
     >
@@ -7,7 +8,7 @@ npm <template>
         >
             <div>
                 <router-link class="cursor-pointer" :to="{ name: 'home' }">
-                    <img src="/img/logo-png-2.jpg" class="max-w-sm" />
+                    <img src="/img/logo-png-2.jpg" class="max-w-sm"/>
                 </router-link>
             </div>
             <div
@@ -26,7 +27,8 @@ npm <template>
                             color +
                             '-500 transition-all duration-300'
                     "
-                    >Expertos en reformas</router-link
+                >Expertos en reformas
+                </router-link
                 >
                 <router-link
                     :to="{ name: 'decoracion-de-interiores' }"
@@ -37,7 +39,8 @@ npm <template>
                             color +
                             '-500 transition-all duration-300'
                     "
-                    >Decoración de interiores</router-link
+                >Decoración de interiores
+                </router-link
                 >
                 <router-link
                     :to="{ name: 'electricidad-y-fontaneria' }"
@@ -48,7 +51,8 @@ npm <template>
                             color +
                             '-500 transition-all duration-300'
                     "
-                    >Electricidad y fontanería</router-link
+                >Electricidad y fontanería
+                </router-link
                 >
                 <router-link
                     :to="{ name: 'energias-renovables' }"
@@ -59,19 +63,65 @@ npm <template>
                             color +
                             '-500 transition-all duration-300'
                     "
-                    >Energías renovables</router-link
+                >Energías renovables
+                </router-link
                 >
-                <router-link
-                    :to="{ name: 'domotica' }"
-                    :class="
+                <t-dropdown text="Mas Servicios" toggle-on-hover :classes="{
+                            button: 'font-medium md:px-5 py-2 hover:text-' +
+                                  color +
+                                  '-500 cursor-pointer border-b border-black hover:border-' +
+                                  color +
+                                  '-500 transition-all duration-300',
+                            wrapper: 'inline-flex flex-col',
+                            dropdownWrapper: 'relative z-10',
+                            dropdown: 'origin-top-right absolute right-0 w-56 rounded-md shadow-lg bg-white',
+                            enterClass: '',
+                            enterActiveClass: 'transition ease-out duration-100 transform opacity-0 scale-95',
+                            enterToClass: 'transform opacity-100 scale-100',
+                            leaveClass: 'transition ease-in transform opacity-100 scale-100',
+                            leaveActiveClass: '',
+                            leaveToClass: 'transform opacity-0 scale-95 duration-75', }">
+                    <div class="py-1 rounded-md shadow-xs bg-black">
+                        <router-link
+                            :to="{ name: 'domotica' }"
+                            :class="
                         'md:px-5 py-2 hover:text-' +
                             color +
                             '-500 cursor-pointer border-b border-black hover:border-' +
                             color +
-                            '-500 transition-all duration-300'
+                            '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
                     "
-                    >Domotica</router-link
-                >
+                        >Domótica
+                        </router-link
+                        >
+
+                        <router-link
+                            :to="{ name: 'mantenimiento-comunidades' }"
+                            :class="
+                      'block md:px-5 py-2 hover:text-' +
+                          color +
+                          '-500 cursor-pointer border-b border-black hover:border-' +
+                          color +
+                          '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
+                  "
+                        >Mantenimiento de Comunidades
+                        </router-link
+                        >
+
+                        <router-link
+                            :to="{ name: 'administracion-comunidades' }"
+                            :class="
+                      'block md:px-5 py-2 hover:text-' +
+                          color +
+                          '-500 cursor-pointer border-b border-black hover:border-' +
+                          color +
+                          '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
+                  "
+                        >Administración de Comunidades
+                        </router-link
+                        >
+                    </div>
+                </t-dropdown>
                 <router-link
                     :to="{ name: 'contacto' }"
                     :class="
@@ -81,7 +131,8 @@ npm <template>
                             color +
                             '-500 transition-all duration-300'
                     "
-                    >Contacto</router-link
+                >Contacto
+                </router-link
                 >
             </ul>
         </div>
@@ -99,7 +150,8 @@ npm <template>
                         color +
                         '-500 transition-all duration-300'
                 "
-                >Expertos en reformas</router-link
+            >Expertos en reformas
+            </router-link
             >
             <router-link
                 :to="{ name: 'decoracion-de-interiores' }"
@@ -110,7 +162,8 @@ npm <template>
                         color +
                         '-500 transition-all duration-300'
                 "
-                >Decoración de interiores</router-link
+            >Decoración de interiores
+            </router-link
             >
             <router-link
                 :to="{ name: 'electricidad-y-fontaneria' }"
@@ -121,7 +174,8 @@ npm <template>
                         color +
                         '-500 transition-all duration-300'
                 "
-                >Electricidad y fontanería</router-link
+            >Electricidad y fontanería
+            </router-link
             >
             <router-link
                 :to="{ name: 'energias-renovables' }"
@@ -132,7 +186,8 @@ npm <template>
                         color +
                         '-500 transition-all duration-300'
                 "
-                >Energías renovables</router-link
+            >Energías renovables
+            </router-link
             >
             <router-link
                 :to="{ name: 'domotica' }"
@@ -143,7 +198,32 @@ npm <template>
                         color +
                         '-500 transition-all duration-300'
                 "
-                >Domotica</router-link
+            >Domótica
+            </router-link
+            >
+            <router-link
+                :to="{ name: 'mantenimiento-comunidades' }"
+                :class="
+                    'block md:px-5 py-2 hover:text-' +
+                        color +
+                        '-500 cursor-pointer border-b border-black hover:border-' +
+                        color +
+                        '-500 transition-all duration-300'
+                "
+            >Mantenimiento de Comunidades
+            </router-link
+            >
+            <router-link
+                :to="{ name: 'administracion-comunidades' }"
+                :class="
+                    'block md:px-5 py-2 hover:text-' +
+                        color +
+                        '-500 cursor-pointer border-b border-black hover:border-' +
+                        color +
+                        '-500 transition-all duration-300'
+                "
+            >Administración de Comunidades
+            </router-link
             >
             <router-link
                 :to="{ name: 'contacto' }"
@@ -154,7 +234,8 @@ npm <template>
                         color +
                         '-500 transition-all duration-300'
                 "
-                >Contacto</router-link
+            >Contacto
+            </router-link
             >
         </ul>
     </nav>
@@ -172,7 +253,7 @@ export default {
     methods: {
         scrollToSection(section) {
             let element = document.getElementById(section);
-            element.scrollIntoView({ behavior: "smooth", block: "end" });
+            element.scrollIntoView({behavior: "smooth", block: "end"});
         }
     }
 };

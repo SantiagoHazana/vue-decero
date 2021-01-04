@@ -13,11 +13,12 @@
       <div
         class="absolute z-10 text-white w-full h-full flex content-center justify-center flex-wrap px-4"
       >
-        <div class="w-full lg:w-1/3 text-center lg:flex lg:flex-wrap lg:justify-center lg:mt-40">
-          <img src="/img/logo-home.png" class="opacity-50 lg:mt-40" />
+        <div class="w-full text-center lg:flex lg:flex-wrap lg:justify-center lg:mt-40">
+          <img src="/decero.png" class="opacity-50 lg:mt-40 w-1/3 m-auto" />
           <!--  <h1 class="text-7xl font-light">DeCero</h1>
           <h2 class="text-2xl text-gray-300 font-medium">- PROYECTOS Y REFORMAS -</h2>-->
         </div>
+
         <div class="w-full text-center flex flex-wrap justify-center">
           <!-- <vue-typed-js
             :strings="['Tu lo sueñas, nosotros lo hacemos posible.']"
@@ -46,6 +47,7 @@
     </section>
 
     <atajos-component class="lg:my-20"></atajos-component>
+    <atajos2-component class="lg:my-20"></atajos2-component>
     <proyectos-component class="lg:my-40 mt-10"></proyectos-component>
     <contact-home></contact-home>
     <data-contact></data-contact>
@@ -57,12 +59,14 @@ import WhatssapButton from "../components/WhatssapButton";
 import PresupuestoButton from "../components/PresupuestoButton";
 import ChatButton from "../components/ChatButton";
 import AtajosComponent from "../components/Atajos";
+import Atajos2Component from "../components/Atajos2";
 import ProyectosComponent from "../components/ProyectosComponent";
 import ContactHome from "../components/ContactHome";
 import DataContact from "../components/DataContact";
 import Vue from "vue";
 import { VueTypedJs } from "vue-typed-js";
-Vue.use(VueTypedJs);
+import VueTailwind from 'vue-tailwind'
+Vue.use(VueTailwind, VueTypedJs);
 
 export default {
   components: {
@@ -70,6 +74,7 @@ export default {
     PresupuestoButton,
     ChatButton,
     AtajosComponent,
+    Atajos2Component,
     ProyectosComponent,
     ContactHome,
     DataContact,
