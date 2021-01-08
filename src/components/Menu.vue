@@ -31,6 +31,18 @@ npm
         </router-link
         >
         <router-link
+            :to="{ name: 'decoracion-de-interiores' }"
+            :class="
+                        'md:px-5 py-2 hover:text-' +
+                            color +
+                            '-500 cursor-pointer border-b border-black hover:border-' +
+                            color +
+                            '-500 transition-all duration-300'
+                    "
+        >Decoración de interiores
+        </router-link
+        >
+        <router-link
             :to="{ name: 'administracion-comunidades' }"
             :class="
                         'md:px-5 py-2 hover:text-' +
@@ -42,9 +54,8 @@ npm
         >Administración de<br>Comunidades
         </router-link
         >
-
         <router-link
-            :to="{ name: 'electricidad-y-fontaneria' }"
+            :to="{ name: 'mantenimiento-comunidades' }"
             :class="
                         'md:px-5 py-2 hover:text-' +
                             color +
@@ -52,19 +63,7 @@ npm
                             color +
                             '-500 transition-all duration-300'
                     "
-        >Electricidad y fontanería
-        </router-link
-        >
-        <router-link
-            :to="{ name: 'energias-renovables' }"
-            :class="
-                        'md:px-5 py-2 hover:text-' +
-                            color +
-                            '-500 cursor-pointer border-b border-black hover:border-' +
-                            color +
-                            '-500 transition-all duration-300'
-                    "
-        >Energías renovables
+        >Mantenimiento de <br>Comunidades
         </router-link
         >
         <t-dropdown text="Mas Servicios" toggle-on-hover :classes="{
@@ -95,30 +94,28 @@ npm
             >Domótica
             </router-link
             >
-
             <router-link
-                :to="{ name: 'mantenimiento-comunidades' }"
+                :to="{ name: 'electricidad-y-fontaneria' }"
                 :class="
-                      'block md:px-5 py-2 hover:text-' +
-                          color +
-                          '-500 cursor-pointer border-b border-black hover:border-' +
-                          color +
-                          '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
-                  "
-            >Mantenimiento de Comunidades
+                        'md:px-5 py-2 hover:text-' +
+                            color +
+                            '-500 cursor-pointer border-b border-black hover:border-' +
+                            color +
+                            '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
+                    "
+            >Electricidad y fontanería
             </router-link
             >
-
             <router-link
-                :to="{ name: 'decoracion-de-interiores' }"
+                :to="{ name: 'energias-renovables' }"
                 :class="
-                      'block md:px-5 py-2 hover:text-' +
-                          color +
-                          '-500 cursor-pointer border-b border-black hover:border-' +
-                          color +
-                          '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
-                  "
-            >Decoración de interiores
+                        'md:px-5 py-2 hover:text-' +
+                            color +
+                            '-500 cursor-pointer border-b border-black hover:border-' +
+                            color +
+                            '-500 transition-all duration-300 block px-4 py-2 text-sm leading-5 transition duration-150 ease-in-out'
+                    "
+            >Energías renovables
             </router-link
             >
           </div>
