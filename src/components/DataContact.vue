@@ -3,7 +3,7 @@
     <div class="lg:flex lg:flex-wrap content-center justify-center text-center">
       <div class="w-full lg:w-1/4 pb-8 lg:pb-0">
         <a
-          href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.1391242979316!2d-4.530349384431028!3d36.59895818670097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fd7b6171973b%3A0x8860d1b7f2eacebd!2sDecero%20Proyectos%20Y%20Reformas!5e0!3m2!1ses-419!2ses!4v1606318256201!5m2!1ses-419!2ses"
+          href="https://www.google.com/maps/place/Decero+Proyectos+Y+Reformas/@36.5989582,-4.5303494,17z/data=!3m1!4b1!4m5!3m4!1s0xd72fd7b6171973b:0x8860d1b7f2eacebd!8m2!3d36.5989539!4d-4.5281607"
           target="_blank"
         >
           <i class="far fa-building text-6xl text-red-500"></i>
