@@ -146,7 +146,8 @@ export default {
             this.thanks = true;
             this.error = false;
             this.show = true;
-
+            e.target.reset();
+            return gtag_report_conversion('https://decero.eu/contacto');
           }, (error) => {
             this.loading = false;
             this.show = true;
