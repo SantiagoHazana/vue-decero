@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Ads: 494626187 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-494626187"></script>
+    <script> window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-494626187'); </script>
+    <!-- Event snippet for Formulario conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script> function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof (url) != 'undefined') {
+                window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {'send_to': 'AW-494626187/ox-QCJ39pOUBEIvL7esB', 'event_callback': callback});
+        return false;
+    } </script>
+    <script> gtag('config', 'AW-494626187/hOjeCOb7wOUBEIvL7esB', { 'phone_conversion_number': '+34 722 263 334' }); </script>
+    <script> gtag('config', 'AW-494626187/-0IDCM__wOUBEIvL7esB', { 'phone_conversion_number': '+34 951 89 95 78' }); </script>
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <link rel="stylesheet" href="<%= BASE_URL %>css/app.css">
     <link rel="stylesheet" href="<%= BASE_URL %>css/index_critical.min.css">
-      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-      <script src="https://kit.fontawesome.com/a4427ecf26.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4427ecf26.js" crossorigin="anonymous"></script>
     <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
 </html>
