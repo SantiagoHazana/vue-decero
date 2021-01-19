@@ -140,7 +140,7 @@ export default {
   methods: {
     sendEmail: function(e) {
       this.loading = true;
-      emailjs.sendForm('service_8jotepn', 'template_bg3k2il', e.target, 'user_xcAr3aPGvN1E85vjpaJtl')
+      emailjs.sendForm('service_bvhjw7b', 'template_bg3k2il', e.target, 'user_xcAr3aPGvN1E85vjpaJtl')
           .then((response) => {
             this.loading = false;
             this.thanks = true;
