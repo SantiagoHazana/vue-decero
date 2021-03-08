@@ -5,11 +5,15 @@
         <h1
           class="text-3xl text-red-600 text-center font-medium mt-5 mb-3 lg:text-4xl lg:text-left lg:px-6"
         >Decoración de interiores</h1>
-        <img
-          src="/img/servicios/decoracion-de-interiores.jpg"
-          class="w-full object-cover"
-          style="height: 400px;"
-        />
+<!--        <img-->
+<!--          src="/img/servicios/decoracion-de-interiores.jpg"-->
+<!--          class="w-full object-cover"-->
+<!--          style="height: 400px;"-->
+<!--        />-->
+        <iframe class="m-auto p-5 border-2 mb-5" width="800" height="488"
+                src="https://www.youtube.com/embed/3DkQpsah3pI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         <div class="py-6 px-6 text-gray-900 text-xl font-light leading-relaxed">
           <p class="mb-5">
             Gracias a nuestra metodología de trabajo y al equipo
