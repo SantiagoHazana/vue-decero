@@ -24,7 +24,7 @@
         <p class="mt-2 text-gray-700">
           <a href="tel:+34722263334">+34 722 263 334</a>
           <br />
-          <a href="tel:951899578">951 899 578</a>
+<!--          <a href="tel:951899578">951 899 578</a>-->
         </p>
       </div>
       <div class="w-full lg:w-1/4 pb-8 lg:pb-0">
