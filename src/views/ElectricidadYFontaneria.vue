@@ -9,11 +9,15 @@
           Somos especialistas en instalaciones eléctricas, gas y
           fontanería.
         </p>
-        <img
-          src="/img/electricidad-y-fontaneria-3.jpg"
-          class="w-full object-cover"
-          style="height: 400px;"
-        />
+        <iframe class="m-auto p-5 border-2 mb-5" width="800" height="488"
+                src="https://www.youtube.com/embed/johPsL5P420" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+<!--        <img-->
+<!--          src="/img/electricidad-y-fontaneria-3.jpg"-->
+<!--          class="w-full object-cover"-->
+<!--          style="height: 400px;"-->
+<!--        />-->
         <div class="py-6 px-6 text-gray-900 text-xl font-light leading-relaxed">
           <p class="mb-5">
             <span class="font-medium">
