@@ -3,13 +3,13 @@
     <div class="lg:flex lg:flex-wrap content-center justify-center text-center">
       <div class="w-full lg:w-1/4 pb-8 lg:pb-0">
         <a
-          href="https://www.google.com/maps/place/Decero+Proyectos+Y+Reformas/@36.5989582,-4.5303494,17z/data=!3m1!4b1!4m5!3m4!1s0xd72fd7b6171973b:0x8860d1b7f2eacebd!8m2!3d36.5989539!4d-4.5281607"
+          href="https://www.google.com/maps/place/Av.+Cdad.+de+Melilla,+24,+29630+Benalm%C3%A1dena,+M%C3%A1laga/@36.5966139,-4.5355373,17z/data=!3m1!4b1!4m5!3m4!1s0xd72fc902c3524dd:0x4efd53157ce63ebe!8m2!3d36.5966139!4d-4.5333486"
           target="_blank"
         >
           <i class="far fa-building text-6xl text-red-500"></i>
           <p class="mt-2 text-gray-700">
             Arroyo de la Miel, Benalmadena.
-            <br />Avenida Bonanza 21, Local 3
+            <br />Avenida Ciudad de Melilla 24 local 37
           </p>
         </a>
       </div>
